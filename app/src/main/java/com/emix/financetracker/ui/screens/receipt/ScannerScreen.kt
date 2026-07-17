@@ -62,7 +62,7 @@ fun ScannerScreen(
 
     Scaffold(
         topBar = {
-            TopAppBar(
+            androidx.compose.material3.TopAppBar(
                 title = { Text("Сканирование QR") },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
